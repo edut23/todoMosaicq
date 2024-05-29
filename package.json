@@ -1,0 +1,26 @@
+{
+  "name": "mosaicq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.0.11"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-promise-router": "^4.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-postgres": "^0.6.2",
+    "nodemon": "^3.1.1",
+    "pg": "^8.11.5"
+  }
+}
