@@ -27,9 +27,6 @@ coverage/
 # Bower dependency directory (https://bower.io/)
 bower_components/
 
-# Environment variables
-.env
-
 # Dist folder
 dist/
 
