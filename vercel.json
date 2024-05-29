@@ -9,7 +9,13 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./src/routes/item.routes"
+        "dest": ""
       }
-    ]
+    ],
+    "rewrites": [
+        {
+          "source": "/(.*)",
+          "destination": "/"
+        }
+      ]
 }
