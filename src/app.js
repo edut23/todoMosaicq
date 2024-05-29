@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-require('dotenv').config()
 // ==> Rotas da API:
 const index = require('./routes/index');
 const itemRoute = require('./routes/item.routes');
